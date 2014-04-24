@@ -1,0 +1,51 @@
+body {
+	color: #666;
+}
+h1, h2, h3, h4, h5, h6  {
+	font-family: 'Cabin', 'sans-serif';
+	font-weight: 500;
+	color: #666;
+}
+label {
+	text-align: left;
+	color: #666;
+}
+textarea {
+	height: 200px;
+}
+.top-bar {
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 7px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 7px 0px rgba(50, 50, 50, 0.75);
+}
+.video-player {
+	padding-top: 20px;
+}
+.panel {
+	border: none;
+	background-color: #f2f2f2;
+}
+.panel p {
+	color: #666;
+}
+.main-content, .gallery, .contact-us {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.gallery {
+	padding: 20px 0;
+	background-color: #f2f2f2;
+}
+.clearing-thumbs li {
+	margin: 0 20px 20px 0;
+}
+.clearing-thumbs li:first-child {
+	margin-left: 10px;
+}
+footer {
+	color: #fff;
+	background: rgb(43, 43, 43);
+	background: -moz-linear-gradient(90deg, rgb(43, 43, 43) 30%, rgb(29, 29, 29) 70%);
+	background: -webkit-linear-gradient(90deg, rgb(43, 43, 43) 30%, rgb(29, 29, 29) 70%);
+	background: linear-gradient(180deg, rgb(43, 43, 43) 30%, rgb(29, 29, 29) 70%);
+}
